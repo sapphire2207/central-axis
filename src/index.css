@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .animate-scroll {
+    animation: scroll 40s linear infinite;
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+@font-face {
+  font-family: 'ui-sans';
+  src: url('../assets/fonts/uisans.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* .bg-accent-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(var(#8B5CF6) / var(--tw-bg-opacity));
+}
+
+.border-accent-600 {
+    --tw-border-opacity: 1;
+    border-color: rgb(var(#7C3AED) / var(--tw-border-opacity));
+} */
+
+/* .ring-control {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(139 92 246 / var(--tw-ring-opacity)); 
+} */
