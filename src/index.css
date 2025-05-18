@@ -28,17 +28,6 @@
   font-style: normal;
 }
 
-/* .bg-accent-500 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(var(#8B5CF6) / var(--tw-bg-opacity));
+*{
+  letter-spacing: -0.015em;
 }
-
-.border-accent-600 {
-    --tw-border-opacity: 1;
-    border-color: rgb(var(#7C3AED) / var(--tw-border-opacity));
-} */
-
-/* .ring-control {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(139 92 246 / var(--tw-ring-opacity)); 
-} */
